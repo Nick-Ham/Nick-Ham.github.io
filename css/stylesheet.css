@@ -1,0 +1,27 @@
+
+div
+{
+    font-family: monospace;
+    font: Lucida;
+    font-size: 15px;
+    outline: 2px solid cyan;
+}
+.navbar
+{
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+.menu
+{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.menu-item:hover
+{
+    background-color: rgba(0, 0, 0, .1);
+}
+#first {  width: 33%;}
+#second { width: 34%;}
+#third {  width: 33%;}
