@@ -1,8 +1,13 @@
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
 div
 {
-    font-family: monospace;
-    font: Lucida;
+    font-family: sans-serif;
+    font: Arial;
     font-size: 15px;
     outline: 2px solid rgba(0, 0, 100, 1);
 }
