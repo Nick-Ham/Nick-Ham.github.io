@@ -1,16 +1,5 @@
 
-a
-{
-    text-decoration: none;
-    color: inherit;
-}
-div
-{
-    font-family: sans-serif;
-    font: Arial;
-    font-size: 15px;
-    outline: 2px solid rgba(0, 0, 100, 1);
-}
+/* Navbar ============================================== */ 
 .navbar
 {
     font-size: 25px;
@@ -18,9 +7,20 @@ div
     background-color: rgba(0, 0, 0, .5);
     text-align: center;
 }
+navbar a
+{
+    text-decoration: none;
+    color: inherit;
+}
+navbar div
+{
+    font-family: sans-serif;
+    font: Arial;
+    font-size: 15px;
+    outline: 2px solid rgba(0, 0, 100, 1);
+}
 .navbar-menu
 {
-    color: white;
     display: flex;
     text-align: center;
 }
@@ -45,3 +45,5 @@ div
 {
     width: 33%;
 }
+
+/* ===================================================== */ 
