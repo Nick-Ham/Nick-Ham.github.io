@@ -9,7 +9,7 @@ body
 }
 div
 {
-    background-color: linear-gradient(90deg, hsl(193, 9%, 79%) 0px, hsl(193, 43%, 54%) 50px);
+    background: white;
     outline: 2px solid rgb(27, 231, 0);
     
 }
