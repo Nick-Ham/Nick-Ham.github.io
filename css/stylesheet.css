@@ -1,11 +1,29 @@
 
+div
+{
+    background-color: linear-gradient(90deg, hsl(193, 9%, 79%) 0px, hsl(193, 43%, 54%) 50px);
+    outline: 2px solid rgb(27, 231, 0);
+}
+a
+{
+    outline: 2px solid rgb(27, 231, 0);
+}
+p
+{
+    font-family: sans-serif;
+    font: Arial;
+}
+
 /* Navbar ============================================== */ 
 
 .navbar-title
 {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
     font-size: 25px;
     color: white;
-    background-color: rgba(0, 0, 0, .5);
     text-align: center;
 }
 navbar a
@@ -15,10 +33,11 @@ navbar a
 }
 navbar div
 {
+    background-color: rgba(100, 100, 100, 1);
+    color: white;
     font-family: sans-serif;
     font: Arial;
     font-size: 15px;
-    outline: 2px solid rgba(0, 0, 100, 1);
 }
 .navbar-menu
 {
@@ -32,19 +51,23 @@ navbar div
 }
 .navbar-menu-item:hover
 {
-    background-color: rgba(0, 0, 0, .2);
+    background-color:  rgba(80, 80, 80, 1);
+    transform: scale(1.1);
 }
-#first 
-{  
-    width: 33%;
-}
-#second
+#left-third { width: 33%; }
+#middle-third { width: 34%; }
+#right-third { width: 33%; }
+
+/* ===================================================== */ 
+
+/* Main Body =========================================== */ 
+
+#body-container
 {
-    width: 34%
-}
-#third
-{
-    width: 33%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    height: 20in;
 }
 
 /* ===================================================== */ 
