@@ -1,8 +1,17 @@
 
+/*
+background: linear-gradient( 35deg, #ccffff, #ffcccc ); good colors
+*/
+
+body
+{
+    background: linear-gradient( 35deg, #75f1f1, #f7b1b1 );
+}
 div
 {
     background-color: linear-gradient(90deg, hsl(193, 9%, 79%) 0px, hsl(193, 43%, 54%) 50px);
     outline: 2px solid rgb(27, 231, 0);
+    
 }
 a
 {
@@ -51,12 +60,22 @@ navbar div
 }
 .navbar-menu-item:hover
 {
-    background-color:  rgba(80, 80, 80, 1);
-    transform: scale(1.1);
+    animation-name: menu-item-hover;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    /* transform: scale(1.1); */
 }
 #left-third { width: 33%; }
 #middle-third { width: 34%; }
 #right-third { width: 33%; }
+
+@keyframes menu-item-hover
+{
+    100%
+    {
+        background-color:  rgba(80, 80, 80, 1);
+    }
+}
 
 /* ===================================================== */ 
 
